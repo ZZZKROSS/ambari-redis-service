@@ -32,40 +32,6 @@ git clone https://github.com/ZZZKROSS/ambari-redis-service.git /var/lib/ambari-s
 ```
 ambari-server restart
 ```
-4. Log into web then add service as usual:
-![add redis service](/doc/redis-ambari-1.png)
-
-5. Configure the service installation:
-### For single instance deployment
-1). choose 1 node be the master:
-![config master](/doc/redis-ambari-2.png)
-
-2). choose 0 node be the slave:
-![config slave](/doc/redis-ambari-3.png)
-
-3). configure down load url:
-![config download url](/doc/redis-ambari-4.png)
-
-4). configure cluster disabled:
-![config cluster disabled](/doc/redis-ambari-5.png)
-
-### For cluster mode deployment
-1). choose at least 3 nodes be the master:
-![config master](/doc/redis-ambari-7.png)
-
-2). choose at least 3 nodes be the slave:
-![config slave](/doc/redis-ambari-8.png)
-
-3). configure down load url:
-![config download url](/doc/redis-ambari-4.png)
-
-4). configure cluster enabled:
-![config cluster enabled](/doc/redis-ambari-9.png)
-
-5). configure network:
-![config network](/doc/redis-ambari-6.png)
-
-6. Then continue the deployment and enjoy urself.^^
 
 
 ## Background Maintaince
